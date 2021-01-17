@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<books>
+  <book id="1">
+    <author>gjy</author>
+    <name>爱你的日子里</name>
+    <price>30￥</price>
+  </book>
+</books>

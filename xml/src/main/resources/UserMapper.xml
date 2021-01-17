@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE sql SYSTEM "SQLMapper.dtd">
+
+<sql>
+    <properties resource=""/>
+
+    <insert id="addUser">
+        insert into user values()
+    </insert>
+
+    <select id="findAll">
+        select * from user
+    </select>
+
+    <delete id="deleteById">
+        delete from user where id
+    </delete>
+
+    <update id="changeUser">
+        update user set name = ? where id = ?
+    </update>
+</sql>
