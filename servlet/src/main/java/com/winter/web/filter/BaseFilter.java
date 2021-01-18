@@ -1,6 +1,7 @@
 package com.winter.web.filter;
 
 import javax.servlet.*;
+import javax.servlet.FilterChain;
 import java.io.IOException;
 
 public class BaseFilter implements Filter {
@@ -13,6 +14,7 @@ public class BaseFilter implements Filter {
     public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain) throws IOException, ServletException {
         chain.doFilter(request,response);
     }
+
 
     @Override
     public void destroy() {

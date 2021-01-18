@@ -17,5 +17,11 @@
 <h1>Servlet</h1>
 
 <a href="demo2?action=add">Hello</a>
+
+<form action="demo2" method="post">
+    <input type="text" name="name" placeholder="name"> <br>
+    <input type="text" name="age" placeholder="age"> <br>
+    <input type="submit">
+</form>
 </body>
 </html>
