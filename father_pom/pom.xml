@@ -10,6 +10,8 @@
     <modules>
         <module>../xml</module>
         <module>../servlet</module>
+        <module>../reflect</module>
+        <module>../winter</module>
     </modules>
     <packaging>pom</packaging>
 
