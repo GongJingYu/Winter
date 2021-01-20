@@ -12,6 +12,7 @@
         <module>../servlet</module>
         <module>../reflect</module>
         <module>../winter</module>
+        <module>../jdbc</module>
     </modules>
     <packaging>pom</packaging>
 
